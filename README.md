@@ -16,6 +16,10 @@ The working architecture of the *Real-Time Learning Tracker* has three component
 	- contains the calculation of the metric values of each active learner in the course from 	the logged activity data 
 	- loads each version (complex-intermediate-simple) of the *Real-Time Learning Tracker* on the edX pages in a pop-up window, based on learner’s edX id.
 
+	The widget is plotted using [Highcharts](https://www.highcharts.com). The documentation for customizing the widget is [here](https://api.highcharts.com/highcharts/).
+
+	Each version of the widget is included in the files [complex_version](https://github.com/gatou92/RealTimeLearningTracker/blob/master/edX_MOOC_pages/public/js/complex_version.js), [intermediate_version](https://github.com/gatou92/RealTimeLearningTracker/blob/master/edX_MOOC_pages/public/js/intermediate_version.js) and [simple_version](https://github.com/gatou92/RealTimeLearningTracker/blob/master/edX_MOOC_pages/public/js/simple_version.js) respectively.
+
 2. **Server backend (Javascript)**
 	- developed with the [node.js](https://nodejs.org/en/) server environment, the back-end is 
 	the part of the *Real-Time Learning Tracker* responsible for managing requests.
