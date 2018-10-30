@@ -47,3 +47,5 @@ The metrics are calculated considering data generated from the first day of the 
 6. The amount of forum contributions (#threads/#responses/#comments created) on the course pages
 7. The ratio of learners' Engagement (%) - aggregated activity during the course computed based on all six aforementioned behavioural indicators
 
+## Setup
+
