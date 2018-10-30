@@ -5,4 +5,9 @@ The Real-Time Learning Tracker is an interactive learning widget that can be int
 
 The Complex version of the Real-Time Learning Tracker is presented in action via this screencast: https://www.youtube.com/watch?v=jlhfIt9iCAE&t=53s
 
+## Functional Architecture
+
+The working architecture of the Real-Time Learning Tracker has three components as shown in the figure below.
+
+![alt text](https://github.com/gatou92/RealTimeLearningTracker/blob/master/images/RLT_FuncionalArchitecture.jpg)
 
