@@ -125,6 +125,8 @@ Now that the server is running it is time to run the [Offline_Computation](https
 
 ### Offline_Computation
 
+For this part you need to download and install [Python (Version 2.7)](https://www.python.org/downloads/)
+
 **Steps for Building the mysql Database**
 
 After having access to the daily log traces of the learners in a previous run of the course, follow the instructions [here](https://github.com/AngusGLChen/DelftX-Daily-Database) in order to build the initial mysql database. 
