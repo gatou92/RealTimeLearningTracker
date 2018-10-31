@@ -60,3 +60,15 @@ These instructions are for Ubuntu Linux. The steps can be adapted for all major 
 > - [mongodb](https://www.npmjs.com/package/mongodb)
 > - [morgan](https://www.npmjs.com/package/morgan)
 
+**node.js server**
+
+First you will need an node.js server this can be obtained and installed following the instructions on this [website](https://nodejs.org/en/download/).
+
+After the node.js server is installed you'll need to install (and probably save) the required library as listed in the requirements above.
+
+```
+// Check if node is installed
+which node
+
+```
+
