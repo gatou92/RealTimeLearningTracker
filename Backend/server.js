@@ -58,8 +58,6 @@ app.use(function(req, res, next) {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// set our port
-var port     = process.env.PORT || 8080; // set our port
 
 // ROUTES FOR OUR API
 // =============================================================================

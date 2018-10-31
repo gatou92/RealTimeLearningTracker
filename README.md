@@ -119,4 +119,4 @@ after everything is configured use the ```node server.js``` command to run the s
 
 If you need to mange multiple servers I recomend that you take a look at [pm2](http://pm2.keymetrics.io)
 
-Now that the server is running it is time to run the Offline_Computation code in order to compute the succesful learner profiles and insert them into MongoDB.
+Now that the server is running it is time to run the [Offline_Computation](https://github.com/gatou92/RealTimeLearningTracker/tree/master/Offline_Computation) code in order to compute the succesful learner profiles and insert them into MongoDB.
