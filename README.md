@@ -85,11 +85,11 @@ mongo
 
 **Configuration of the server**
 
-All the server code, including it's configurations is in the server.js file. In this file there are a few settings you may need to change in order to run the server. This server runs only on https and this port can be configured on line 62. *Default server port:*
+All the server code, including it's configurations is in the server.js file. In this file there are a few settings you may need to change in order to run the server. This server runs only on https and this port can be configured on line 338. *Default server port:*
 
 ```
 // port:
-var port = process.env.PORT || 8080; // Use the environment port or use 8080 if environment is not set
+app.listen("8080", function(){
 ```
 
 If you need to change the request settings this can be done at line 49 and 50 in server.js.
@@ -102,8 +102,10 @@ res.header("Access-Control-Allow-Origin", "*");
 res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, X-Auth-Token, Content-Type, Accept, Authorization, X-CSRFToken, chap, seq, vert");
 ```
 
+In order to use the https option a valid http certificate and key are needed. In our case, we purchased a domain alongside an SSL key and certificate and we binded the domain address with the server address of the remote server. 
 
-To build the connection string to the mongoDB you can change this url on line 25 with your own username, password, server_address of the remote server that hosts mongodb and mongodb database_name. In case you want to run the server locally on your machine you need to comment line 25 and uncomment line 24 changing this url on line 24 to you database nam:
+
+To build the connection string to the mongoDB you can change this url on line 25 with your own username, password, server_address of the remote server that hosts mongodb and mongodb database_name. In case you want to run the server locally on your machine you need to comment line 25 and uncomment line 24 changing this url on line 24 to you database name:
 
 Default server database settings:
 
