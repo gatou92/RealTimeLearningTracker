@@ -69,6 +69,18 @@ After the node.js server is installed you'll need to install (and probably save)
 ```
 // Check if node is installed
 which node
+```
+
+**mongodb**
+
+You need also to install [MongoDB](https://www.mongodb.com) executing the four steps of the [MongoDB installation instructions](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#install-mongodb-community-edition) 
 
 ```
+// Check if MongoDB is running
+mongo
+// You should see the mongo client connect to the MongoDB server and show its version number.
+// Exit the client using:
+> exit
+```
+
 
