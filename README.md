@@ -125,6 +125,13 @@ Now that the server is running it is time to run the [Offline_Computation](https
 
 ### Offline_Computation
 
+**Steps for Building the mysql Database**
+
+After having access to the daily log traces of the learners in a previous run of the course, follow the instructions [here](https://github.com/AngusGLChen/DelftX-Daily-Database) in order to build the initial mysql database. 
+
+**config**
+
+
 ### edX_MOOC_pages
 
 **config**
@@ -144,5 +151,5 @@ var SERVER_URL = "https://mariagatou2.com";
 4. Select and upload the **complex_version.js**, **intermediate_version.js** and **simple_version.js** files from [js](https://github.com/gatou92/RealTimeLearningTracker/tree/master/edX_MOOC_pages/public/js) folder
 5. Embody the code of **edX_integration.html** file from folder [public](https://github.com/gatou92/RealTimeLearningTracker/tree/master/edX_MOOC_pages/public) in every MOOC page on edX as raw HTML.
 
-That's it!!! The Real-Time Learning Tracker is ready!
+That's it!!! The Real-Time Learning Tracker is set and ready!
 
