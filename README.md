@@ -140,8 +140,8 @@ var SERVER_URL = "https://mariagatou2.com";
 
 1. Go in edX Studio and click **Content > Files & Uploads**
 2. Click the green " + Upload New File" button
-3. Select and upload **style.css** file from [css](https://github.com/gatou92/RealTimeLearningTracker/tree/master/edX_MOOC_pages/public/css) folder
-4. Select and upload **complex_version.js**, **intermediate_version.js** and **simple_version.js** files from [js](https://github.com/gatou92/RealTimeLearningTracker/tree/master/edX_MOOC_pages/public/js) folder
+3. Select and upload the **style.css** file from [css](https://github.com/gatou92/RealTimeLearningTracker/tree/master/edX_MOOC_pages/public/css) folder
+4. Select and upload the **complex_version.js**, **intermediate_version.js** and **simple_version.js** files from [js](https://github.com/gatou92/RealTimeLearningTracker/tree/master/edX_MOOC_pages/public/js) folder
 5. Embody the code of **edX_integration.html** file from folder [public](https://github.com/gatou92/RealTimeLearningTracker/tree/master/edX_MOOC_pages/public) in every MOOC page on edX as raw HTML.
 
 That's it!!! The Real-Time Learning Tracker is ready!
