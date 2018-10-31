@@ -54,9 +54,9 @@ The metrics are calculated considering data generated from the first day of the 
 These instructions are for Ubuntu Linux. The steps can be adapted for all major platforms.
 
 > **this node server requires:**
-- [Express](https://expressjs.com/en/starter/installing.html)
-- [body-parser](https://www.npmjs.com/package/body-parser)
-- [mongoose](https://mongoosejs.com/docs/index.html)
-- [mongodb](https://www.npmjs.com/package/mongodb)
-- [morgan](https://www.npmjs.com/package/morgan)
+> - [Express](https://expressjs.com/en/starter/installing.html)
+> - [body-parser](https://www.npmjs.com/package/body-parser)
+> - [mongoose](https://mongoosejs.com/docs/index.html)
+> - [mongodb](https://www.npmjs.com/package/mongodb)
+> - [morgan](https://www.npmjs.com/package/morgan)
 
