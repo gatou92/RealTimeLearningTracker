@@ -101,3 +101,14 @@ If you need to change the request settings this can be done at line 49 and 50 in
 res.header("Access-Control-Allow-Origin", "*");
 res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, X-Auth-Token, Content-Type, Accept, Authorization, X-CSRFToken, chap, seq, vert");
 ```
+
+
+To build the connection string to the mongoDB you can change this url on line 25 with your own username, password, server_address of the remote server that hosts mongodb and mongodb database_name. In case you want to run the server locally on your machine you need to comment line 25 and uncomment line 24 changing this url on line 24 to you database nam:
+
+Default server database settings:
+
+```
+// Build the connection string
+var dbURL = 'mongodb://localhost:27017/RTlog';
+// mongodb://<Host>:<Port>/<custom-Database-name>
+```
