@@ -49,3 +49,12 @@ The metrics are calculated considering data generated from the first day of the 
 
 ## Setup
 
+### Real-Time Learning Tracker Backend
+
+These instructions are for Ubuntu Linux. The steps can be adapted for all major platforms.
+
+> this node server requires:
+	> - [Express](https://expressjs.com/en/starter/installing.html)
+	> - [body-parser](https://www.npmjs.com/package/body-parser)
+	> - [mongoose](https://mongoosejs.com/docs/index.html)
+

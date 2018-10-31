@@ -12,7 +12,6 @@ var http = require('http');
 var fs = require('fs');
 var mongoose   = require('mongoose');
 var mongodb = require('mongodb');
-var MongoClient = require('mongodb').MongoClient;
 var morgan     = require('morgan');
 
 // configure app
