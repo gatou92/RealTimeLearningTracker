@@ -49,7 +49,7 @@ The metrics are calculated considering data generated from the first day of the 
 
 ## Setup
 
-### Real-Time Learning Tracker Backend
+### Backend
 
 These instructions are for Ubuntu Linux. The steps can be adapted for all major platforms.
 
@@ -83,4 +83,21 @@ mongo
 > exit
 ```
 
+**Configuration of the server**
 
+All the server code, including it's configurations is in the server.js file. In this file there are a few settings you may need to change in order to run the server. This server runs only on https and this port can be configured on line 62. *Default server port:*
+
+```
+// port:
+var port = process.env.PORT || 8080; // Use the environment port or use 8080 if environment is not set
+```
+
+If you need to change the request settings this can be done at line 49 and 50 in server.js.
+
+*Default server request settings:*
+
+```
+// header settings
+res.header("Access-Control-Allow-Origin", "*");
+res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, X-Auth-Token, Content-Type, Accept, Authorization, X-CSRFToken, chap, seq, vert");
+```
