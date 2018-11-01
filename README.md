@@ -202,7 +202,7 @@ Otherwise you can run only the [run.py](https://github.com/gatou92/RealTimeLearn
 python run.py
 ```
 
-Now that the server stores the succesfule learner profiles of a previous run of the MOOC, procced with the edX_MOOC_pages
+Now that the server stores the succesful learner profiles of a previous run of the MOOC, procceed with the edX_MOOC_pages
 
 ### 3. edX_MOOC_pages
 
