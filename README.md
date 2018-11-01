@@ -39,7 +39,7 @@ The working architecture of the *Real-Time Learning Tracker* has three component
 
 The metrics are calculated considering data generated from the first day of the course.
 
-1. Number of video lecture watched
+1. Number of video lectures watched
 2. Number of quiz questions submitted
 3. Amount of time spent on the course pages (in minutes)
 4. Amount of time spent watching video lectures (in minutes)
@@ -48,6 +48,10 @@ The metrics are calculated considering data generated from the first day of the 
 7. The ratio of learners' Engagement (%) - aggregated activity during the course computed based on all six aforementioned behavioural indicators
 
 ## Setup
+
+```
+git clone https://github.com/gatou92/RealTimeLearningTracker
+```
 
 ### 1. Backend
 
