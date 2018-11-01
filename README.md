@@ -184,7 +184,19 @@ db = client.database_name
 
 **running the Offline_Computation**
 
+Go to the folder storing the Offline_Computation codes (i.e., $PATH$/Offline_Computation/), and run the following commands in the terminal with the proposed order to generate the succesful learner profiles and insert them to MongoDB database:
 
+```
+1. python sql2mongodb.py
+2. python metrics_computation.py
+3. python profiles_computation.py
+```
+
+Otherwise you can run only the [run.py](https://github.com/gatou92/RealTimeLearningTracker/blob/master/Offline_Computation/run.py) file that integrates all the aforementioned modules:
+
+```
+python run.py
+```
 
 ### edX_MOOC_pages
 
