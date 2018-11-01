@@ -172,6 +172,16 @@ passwd ='...'
 db ='...'
 ```
 
+- In [metrics_computation](https://github.com/gatou92/RealTimeLearningTracker/blob/master/Offline_Computation/metrics_computation.py) file the lines 13 and 18 need to be set and in [profiles_computation](https://github.com/gatou92/RealTimeLearningTracker/blob/master/Offline_Computation/profiles_computation.py) file the lines 14 and 19 need to be set:
+
+```
+\\ put your own username, password, server_address of the remote server that hosts mongodb database and mongodb database_name
+client = MongoClient("mongodb://username:password@server_address:27017/database_name")
+
+\\ put mongodb database_name
+db = client.database_name
+```
+
 ### edX_MOOC_pages
 
 **config**
