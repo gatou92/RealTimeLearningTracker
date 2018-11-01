@@ -152,6 +152,25 @@ client = MongoClient("mongodb://username:password@server_address:27017/database_
 db  = client.database_name 
 ```
 
+In line 27:
+
+```
+\\ put the server_address of the remote server that hosts the mysql database
+('server_address',22)
+```
+
+In lines 35, 36 and 37:
+
+```
+\\ put your username of the mysql database
+user     ='...'
+
+\\ put your password of the mysql database
+passwd ='...'
+
+\\ put the mysql database_name
+db ='...'
+```
 
 ### edX_MOOC_pages
 
