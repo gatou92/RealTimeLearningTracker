@@ -49,7 +49,7 @@ The metrics are calculated considering data generated from the first day of the 
 
 ## Setup
 
-### Backend
+### 1. Backend
 
 These instructions are for Ubuntu Linux. The steps can be adapted for all major platforms.
 
@@ -123,7 +123,7 @@ If you need to mange multiple servers I recomend that you take a look at [pm2](h
 
 Now that the server is running it is time to run the [Offline_Computation](https://github.com/gatou92/RealTimeLearningTracker/tree/master/Offline_Computation) code in order to compute the succesful learner profiles and insert them into MongoDB.
 
-### Offline_Computation
+### 2. Offline_Computation
 
 For this part you need to download and install [Python (Version 2.7)](https://www.python.org/downloads/)
 
@@ -198,7 +198,9 @@ Otherwise you can run only the [run.py](https://github.com/gatou92/RealTimeLearn
 python run.py
 ```
 
-### edX_MOOC_pages
+Now that the server stores the succesfule learner profiles of a previous run of the MOOC, procced with the edX_MOOC_pages
+
+### 3. edX_MOOC_pages
 
 **config**
 
