@@ -133,7 +133,7 @@ After having access to the daily log traces of the learners in a previous run of
 
 **config**
 
--In the [sql2mongodb](https://github.com/gatou92/RealTimeLearningTracker/blob/master/Offline_Computation/sql2mongodb.py) file some lines need to be set.
+- In the [sql2mongodb](https://github.com/gatou92/RealTimeLearningTracker/blob/master/Offline_Computation/sql2mongodb.py) file some lines need to be set.
 
 In line 19:
 
