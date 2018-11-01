@@ -133,6 +133,25 @@ After having access to the daily log traces of the learners in a previous run of
 
 **config**
 
+In the [sql2mongodb](https://github.com/gatou92/RealTimeLearningTracker/blob/master/Offline_Computation/sql2mongodb.py) file some lines need to be set.
+
+In line 19:
+
+```
+\\put the path to your private rsa key
+mypkey = paramiko.RSAKey.from_private_key_file(home + '/.ssh/id_rsa')
+```
+
+In lines 22 and 23:
+
+```
+\\ put your own username, password, server_address of the remote server that hosts mongodb database and mongodb database_name
+client = MongoClient("mongodb://username:password@server_address:27017/database_name")
+
+\\ put your mongodb database_name
+db  = client.database_name 
+```
+
 
 ### edX_MOOC_pages
 
