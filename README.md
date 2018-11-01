@@ -123,7 +123,7 @@ var dbURL = 'mongodb://localhost:27017/RTlog';
 
 after everything is configured use the ```node server.js``` command to run the server. If this doesn't work check on the node.js documentation if the running method changed. If everything goes well the following message should appear: ```Server is up!```
 
-If you need to mange multiple servers I recomend that you take a look at [pm2](http://pm2.keymetrics.io)
+If you need to manage multiple servers I recomend that you take a look at [pm2](http://pm2.keymetrics.io)
 
 Now that the server is running it is time to run the [Offline_Computation](https://github.com/gatou92/RealTimeLearningTracker/tree/master/Offline_Computation) code in order to compute the succesful learner profiles and insert them into MongoDB.
 
