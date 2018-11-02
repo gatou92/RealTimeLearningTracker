@@ -7,11 +7,14 @@ var nrVideos=responseDatas.totalVidWatched;
 var nrQuizzes=responseDatas.totalSubmits;
 var actSessions= responseDatas.totalSessions;
 var timeVideos=responseDatas.totalVidDuration;
-if(timeVideos<actSessions){
+
+if(timeVideos<=actSessions && actSessions!=0){
     var propVideos=Math.round((timeVideos/actSessions)*100);
 
-}else{
+}else if(timeVideos>actSessions){
     var propVideos=100;
+}else if(timeVideos==actSessions && actSessions==0){
+    var propVideos=0;
 }
 
 var forumContrib=responseDatas.contributions;
