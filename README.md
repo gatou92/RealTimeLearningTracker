@@ -93,7 +93,7 @@ All the server code, including it's configurations is in the server.js file. In 
 
 ```
 // port:
-var port = process.env.PORT || 8080; // Use the enviorment port or use 8080 if enviorment is not set
+var port = process.env.PORT || 8080; // Use the environment port or use 8080 if environment is not set
 ```
 
 If you need to change the request settings this can be done at line 49 and 50 in server.js.
