@@ -133,7 +133,6 @@ router.route('/events')
     .get(function(req, res) {
         Event.distinct("vidID", {
             id: req.query.id,
-            week: req.query.week,
             course: req.query.course
         },function(err, videos) {
             if (err) {
@@ -142,7 +141,6 @@ router.route('/events')
             }
             Event.distinct("quID", {
                 id: req.query.id,
-                week: req.query.week,
                 course: req.query.course
             }, function(err, quizzes){
                 if (err) {
@@ -151,7 +149,6 @@ router.route('/events')
                 }
                 Event.distinct("thread", {
                     id: req.query.id,
-                    week: req.query.week,
                     course: req.query.course
                 }, function(err, threads){
                     if (err){
@@ -160,7 +157,6 @@ router.route('/events')
                     }
                     Event.distinct("resCom", {
                         id: req.query.id,
-                        week: req.query.week,
                         course: req.query.course
                     }, function(err, responseComments){
                         if(err){
@@ -169,7 +165,6 @@ router.route('/events')
                         }
                         Event.distinct("vidDuration", {
                             id: req.query.id,
-                            week: req.query.week,
                             course: req.query.course
                         }, function(err, videoDuration){
                             if(err){
@@ -178,7 +173,6 @@ router.route('/events')
                             }
                             Event.distinct("timeSite", {
                                 id: req.query.id,
-                                week: req.query.week,
                                 course: req.query.course
                             }, function(err, timeSite){
                                 if(err){
@@ -193,7 +187,6 @@ router.route('/events')
                                         }
                                         Event.distinct("timeInterval", {
                                             id: req.query.id,
-                                            week: req.query.week,
                                             course: req.query.course
                                         }, function(err, timeInterval){
                                             if(err){
@@ -202,7 +195,6 @@ router.route('/events')
                                             }
                                             // Event.distinct("openWidget", {
                                             //     id: req.query.id,
-                                            //     week: req.query.week,
                                             //     course: req.query.course
                                             // }, function(err, openWidget){
                                             //     if(err){
@@ -211,7 +203,6 @@ router.route('/events')
                                             //     }
                                             //     Event.distinct("closeWidget", {
                                             //         id: req.query.id,
-                                            //         week: req.query.week,
                                             //         course: req.query.course
                                             //     }, function(err, closeWidget){
                                             //         if(err){
@@ -220,7 +211,6 @@ router.route('/events')
                                             //         }
                                             //         Event.distinct("showYou", {
                                             //             id: req.query.id,
-                                            //             week: req.query.week,
                                             //             course: req.query.course
 
                                             //         }, function(err, showYou){
@@ -230,7 +220,6 @@ router.route('/events')
                                             //             }
                                             //             Event.distinct("hideYou", {
                                             //                 id: req.query.id,
-                                            //                 week: req.query.week,
                                             //                 course: req.query.course
 
                                             //             }, function(err, hideYou){
@@ -240,7 +229,6 @@ router.route('/events')
                                             //                 }
                                             //                 Event.distinct("showAvGrad", {
                                             //                     id: req.query.id,
-                                            //                     week: req.query.week,
                                             //                     course: req.query.course
 
                                             //                 }, function(err, showAvGrad){
@@ -250,7 +238,6 @@ router.route('/events')
                                             //                     }
                                             //                     Event.distinct("hideAvGrad", {
                                             //                         id: req.query.id,
-                                            //                         week: req.query.week,
                                             //                         course: req.query.course
 
                                             //                     }, function(err, hideAvGrad){
@@ -260,7 +247,6 @@ router.route('/events')
                                             //                         }
                                             //                         Event.distinct("showBeGrad", {
                                             //                              id: req.query.id,
-                                            //                              week: req.query.week,
                                             //                              course: req.query.course
 
                                             //                         }, function(err, showBeGrad){
@@ -270,7 +256,6 @@ router.route('/events')
                                             //                             }
                                             //                             Event.distinct("hideBeGrad", {
                                             //                                  id: req.query.id,
-                                            //                                  week: req.query.week,
                                             //                                  course: req.query.course
 
                                             //                             }, function(err, hideBeGrad){
