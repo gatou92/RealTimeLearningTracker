@@ -89,11 +89,11 @@ mongo
 
 **Configuration of the server**
 
-All the server code, including it's configurations is in the server.js file. In this file there are a few settings you may need to change in order to run the server. This server runs only on https and this port can be configured on line 338. *Default server port:*
+All the server code, including it's configurations is in the server.js file. In this file there are a few settings you may need to change in order to run the server. This server runs only on https and this port can be configured on line 62. *Default server port:*
 
 ```
 // port:
-app.listen("8080", function(){
+var port = process.env.PORT || 8080; // Use the enviorment port or use 8080 if enviorment is not set
 ```
 
 If you need to change the request settings this can be done at line 49 and 50 in server.js.
