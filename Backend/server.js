@@ -58,6 +58,9 @@ app.use(function(req, res, next) {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+// set our port
+var port     = process.env.PORT || 8080; // set our port
+
 
 // ROUTES FOR OUR API
 // =============================================================================
@@ -335,6 +338,6 @@ app.use('/api', router);
 
 // START THE SERVER
 // ============================================================================
-app.listen("8080", function(){
+app.listen(port, function(){
   console.log('Server is up!');
 }); 
